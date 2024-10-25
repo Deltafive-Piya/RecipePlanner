@@ -10,12 +10,17 @@ const NotesPage = () => {
     const { notes } = useContext(NotesContext);
     return (
         <div>
-            {notes.map((note) => (
+
+            {/* View ALL Notes from Recipes */}
+            {/* {notes.map((note) => (
                 <NoteCard note={note} key={note.$id} />
-            ))}
+            ))} */}
+
             <Controls />
         </div>
     );
 };
 
 export default NotesPage;
+
+// ! Appwrite has a Paywall for >1 DB user

@@ -1,3 +1,5 @@
+//? Component- Delete Button provides the Card with delete functionality (shown via Trash Icon) and handling (via handleDelete)
+
 import Trash from "../icons/Trash";
 import { db } from "../appwrite/databases";
 import { useContext } from "react";
