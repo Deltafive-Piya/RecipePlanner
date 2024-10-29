@@ -11,10 +11,10 @@ const NotesPage = () => {
     return (
         <div>
 
-            {/* View ALL Notes from Recipes */}
-            {/* {notes.map((note) => (
+            {/* QUERY- SELECT * from Recipes */}
+            {notes.map((note) => (
                 <NoteCard note={note} key={note.$id} />
-            ))} */}
+            ))}
 
             <Controls />
         </div>
