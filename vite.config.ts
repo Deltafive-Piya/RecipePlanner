@@ -10,5 +10,5 @@ export default defineConfig({
       'react-dom': 'preact/compat',
     },
   },
-  base: '/recipe-planner/',  // ← ADD THIS: your repo name
+  base: '/RecipePlanner/',  // ← ADD THIS: your repo name
 })
