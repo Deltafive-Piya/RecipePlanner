@@ -1,0 +1,38 @@
+[
+	{
+		"id": "1",
+		"name": "Bacon & Egg",
+		"type": "meal",
+		"ingredients": [
+			{ "name": "bacon", "quantity": 4, "unit": "strips", "category": "Meat" },
+			{ "name": "eggs", "quantity": 2, "unit": "", "category": "Dairy" },
+			{ "name": "bread", "quantity": 2, "unit": "slices", "category": "Bakery" }
+		],
+		"isCouple": false
+	},
+	{
+		"id": "2",
+		"name": "Coffee",
+		"type": "drink",
+		"ingredients": [
+			{
+				"name": "coffee grounds",
+				"quantity": 2,
+				"unit": "tbsp",
+				"category": "Beverages"
+			},
+			{ "name": "water", "quantity": 1, "unit": "cup", "category": "Beverages" }
+		],
+		"isCouple": false
+	},
+	{
+		"id": "3",
+		"name": "Avocado Toast",
+		"type": "meal",
+		"ingredients": [
+			{ "name": "avocado", "quantity": 1, "unit": "", "category": "Produce" },
+			{ "name": "bread", "quantity": 2, "unit": "slices", "category": "Bakery" }
+		],
+		"isCouple": false
+	}
+]
